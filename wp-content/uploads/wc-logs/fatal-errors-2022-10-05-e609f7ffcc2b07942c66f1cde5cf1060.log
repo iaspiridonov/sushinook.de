@@ -1,0 +1,28 @@
+2022-10-05T10:21:30+00:00 CRITICAL syntax error, unexpected '123' (T_LNUMBER), expecting ')' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/form-checkout.php in Zeile 314
+
+2022-10-05T10:22:20+00:00 CRITICAL syntax error, unexpected '123' (T_LNUMBER), expecting ')' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/form-checkout.php in Zeile 314
+
+2022-10-05T10:35:33+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:36:19+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:37:22+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:37:56+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:39:38+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:42:11+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:43:20+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:48:18+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:52:24+00:00 CRITICAL syntax error, unexpected '123' (T_LNUMBER), expecting ')' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:52:48+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:53:30+00:00 CRITICAL syntax error, unexpected '?' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+
+2022-10-05T10:53:58+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/prosushi/woocommerce/checkout/payment.php in Zeile 50
+

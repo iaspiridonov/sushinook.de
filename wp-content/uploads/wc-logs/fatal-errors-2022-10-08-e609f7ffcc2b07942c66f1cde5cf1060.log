@@ -1,0 +1,268 @@
+2022-10-08T07:47:01+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:47:12+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:47:21+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:49:55+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:49:55+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:49:57+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:50:06+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:50:14+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T07:50:17+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:50:34+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:50:38+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:50:54+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:51:19+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#8 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#9 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#10 /var/www/html/wp-in in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:51:21+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-08T07:53:02+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php' (include_path='.:/usr/share/php') в /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php на строке 82
+
+2022-10-08T07:53:03+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php' (include_path='.:/usr/share/php') в /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php на строке 82
+
+2022-10-08T07:53:03+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php' (include_path='.:/usr/share/php') в /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php на строке 82
+
+2022-10-08T07:54:16+00:00 CRITICAL Uncaught Error: Class 'Woo_Floating_Cart_Admin' not found in /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php:208
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(119): Woo_Floating_Cart->define_admin_hooks()
+#1 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(415): Woo_Floating_Cart->__construct()
+#2 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(101): Woo_Floating_Cart::instance()
+#3 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(103): woo_floating_cart()
+#4 /var/www/html/wp-admin/includes/plugin.php(629): include_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(44): activate_plugin()
+#6 {main}
+  thrown в /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php на строке 208
+
+2022-10-08T07:54:18+00:00 CRITICAL Uncaught Error: Class 'Woo_Floating_Cart_Admin' not found in /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php:208
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(119): Woo_Floating_Cart->define_admin_hooks()
+#1 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(415): Woo_Floating_Cart->__construct()
+#2 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(101): Woo_Floating_Cart::instance()
+#3 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(103): woo_floating_cart()
+#4 /var/www/html/wp-admin/includes/plugin.php(2050): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#6 {main}
+  thrown в /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php на строке 208
+
+2022-10-08T07:54:18+00:00 CRITICAL Uncaught Error: Class 'Woo_Floating_Cart_Admin' not found in /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php:208
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(119): Woo_Floating_Cart->define_admin_hooks()
+#1 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php(415): Woo_Floating_Cart->__construct()
+#2 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(101): Woo_Floating_Cart::instance()
+#3 /var/www/html/wp-content/plugins/woo-floating-cart-lite/woo-floating-cart.php(103): woo_floating_cart()
+#4 /var/www/html/wp-admin/includes/plugin.php(2050): include('/var/www/html/w...')
+#5 /var/www/html/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#6 {main}
+  thrown в /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/class-core.php на строке 208
+
+2022-10-08T07:57:00+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T08:06:37+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap в /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php на строке 64
+
+2022-10-08T10:58:35+00:00 CRITICAL Uncaught Error: Class 'WC_AJAX' not found in /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:540
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php(436): WC_Frontend_Scripts::get_script_data()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php(604): WC_Frontend_Scripts::localize_script()
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Frontend_Scripts::localize_printed_scripts()
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#5 /var/www/html/wp-includes/script-loader.php(2414): do_action()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): wp_print_head_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#9 /var/www/html/wp-includes/general-template.php(2668): do_action()
+#10 /var/ww in /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php in Zeile 540
+

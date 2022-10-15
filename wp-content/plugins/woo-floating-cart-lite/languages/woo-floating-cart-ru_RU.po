@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Floating Cart Lite v1.0.6.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-09-30 08:29:07+0000\n"
+"Last-Translator: prosushiuser <march.paul1989@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/class-admin.php:47
+#@ woo-floating-cart
+msgid "Change Log"
+msgstr ""
+
+#: admin/class-admin.php:48
+#@ woo-floating-cart
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/class-admin.php:49
+#@ woo-floating-cart
+msgid "Shop"
+msgstr "Магазин"
+
+#: admin/class-admin.php:50
+#: admin/class-admin.php:201
+#: admin/partials/sections/fullversion.php:33
+#@ woo-floating-cart
+msgid "Buy Full Version"
+msgstr "Купить новую версию"
+
+#: admin/class-admin.php:83
+#, php-format
+#@ woo-floating-cart
+msgid "<strong>%1$s</strong> plugin requires %2$s to be installed and active."
+msgstr ""
+
+#: admin/class-admin.php:146
+#, php-format
+#@ woo-floating-cart
+msgid "Thank you for upgrading %s to Full Version!"
+msgstr ""
+
+#: admin/class-admin.php:147
+#@ woo-floating-cart
+msgid "Start Customizing"
+msgstr ""
+
+#: admin/class-admin.php:228
+#@ default
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/partials/sections/changelog.php:4
+#@ default
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-core.php:426
+#: includes/class-core.php:435
+#: includes/class-migration.php:99
+#: includes/class-migration.php:108
+#@ default
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/global-functions.php:282
+#@ woo-floating-cart
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: public/class-public.php:121
+#@ woo-floating-cart
+msgid "Min quantity required"
+msgstr ""
+
+#: public/class-public.php:122
+#@ woo-floating-cart
+msgid "Stock limit reached"
+msgstr ""
+
+#: public/templates/parts/cart/footer.php:31
+#@ woo-floating-cart
+msgid "Checkout"
+msgstr "Оформить"
+
+#: public/templates/parts/cart/header.php:29
+#@ woo-floating-cart
+msgid "Cart"
+msgstr "Корзина"
+
+#: public/templates/parts/cart/header.php:30
+#@ woo-floating-cart
+msgid "Item Removed."
+msgstr "Товар удален."
+
+#: public/templates/parts/cart/header.php:30
+#@ woo-floating-cart
+msgid "Undo"
+msgstr "Отменить"
+
+#: public/templates/parts/cart/list/empty.php:28
+#@ woo-floating-cart
+msgid "No products in the cart."
+msgstr "Корзина пуста"
+
+#: public/templates/parts/cart/list/product/actions.php:30
+#@ woo-floating-cart
+msgid "Remove"
+msgstr "Удалить"
+
+#. translators: plugin header field 'Name'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "Woo Floating Cart Lite"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "http://xplodedthemes.com/products/woo-floating-cart/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "An Interactive Floating Cart for WooCommerce that slides in when the user decides to buy an item. Products, quantities and prices are updated instantly via Ajax."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "XplodedThemes"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "http://www.xplodedthemes.com"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: woo-floating-cart.php:0
+#@ woo-floating-cart
+msgid "1.0.6.9"
+msgstr ""
+

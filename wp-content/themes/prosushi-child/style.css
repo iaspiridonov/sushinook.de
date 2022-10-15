@@ -1,0 +1,23 @@
+/*
+Theme Name:     Prosushi Child
+Theme URI:      http: //example.com/
+Description:    Дочерняя тема для темы Twenty Ten 
+Author:         Ваше имя
+Author URI:     http: //example.com/about/
+Template:       prosushi
+Version:        0.1.0
+*/
+
+@import url("../prosushi/style.css");
+
+.pum-theme-5221 .pum-container {
+    border: 14px solid #cc3333 !important;
+}
+
+.pum-title.popmake-title {
+    text-align: center !important;
+}
+
+main .card-wrap .card-product {
+	height: 275.5px !important;
+}

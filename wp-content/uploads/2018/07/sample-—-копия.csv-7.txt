@@ -1,0 +1,3 @@
+post_parent,coupon_amount;
+999;"""Cart % Discount"""
+998;"""Cart % Discount"""

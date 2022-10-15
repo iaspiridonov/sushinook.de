@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,400i,500,700&subset=cyrillic');
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rw8y3');
+  src:  url('../fonts/icomoon.eot?rw8y3#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?rw8y3') format('truetype'),
+  url('../fonts/icomoon.woff?rw8y3') format('woff'),
+  url('../fonts/icomoon.svg?rw8y3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+span.moon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e907";
+}
+.icon-heart-bg:before {
+  content: "\e906";
+}
+.icon-cart:before {
+  content: "\e900";
+}
+.icon-clock:before {
+  content: "\e901";
+}
+.icon-cook:before {
+  content: "\e902";
+}
+.icon-delivery:before {
+  content: "\e903";
+}
+.icon-heart:before {
+  content: "\e904";
+}
+.icon-user:before {
+  content: "\e905";
+}
+
+
+@font-face {
+  font-family: 'Fontfabric-MullerBlack';
+  src:  url('../fonts/Fontfabric - MullerBlack.otf');
+  src:  url('../fonts/Fontfabric - MullerBlack.otf') format('embedded-opentype'),
+  url('../fonts/Fontfabric - MullerBlack.otf') format('truetype'),
+  url('../fonts/Fontfabric - MullerBlack.otf') format('woff'),
+  url('../fonts/Fontfabric - MullerBlack.otf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontfabric-MullerRegular';
+  src:  url('../fonts/Fontfabric - MullerRegular.otf');
+  src:  url('../fonts/Fontfabric - MullerRegular.otf') format('embedded-opentype'),
+  url('../fonts/Fontfabric - MullerRegular.otf') format('truetype'),
+  url('../fonts/Fontfabric - MullerRegular.otf') format('woff'),
+  url('../fonts/Fontfabric - MullerRegular.otf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PF DinDisplay Pro Medium Regular.ttf';
+  src:  url('../fonts/PF DinDisplay Pro Medium Regular.ttf');
+  src:  url('../fonts/PF DinDisplay Pro Medium Regular.ttf') format('embedded-opentype'),
+  url('../fonts/PF DinDisplay Pro Medium Regular.ttf') format('truetype'),
+  url('../fonts/PF DinDisplay Pro Medium Regular.ttf') format('woff'),
+  url('../fonts/PF DinDisplay Pro Medium Regular.ttf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

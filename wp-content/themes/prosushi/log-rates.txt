@@ -1,0 +1,1165 @@
+array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Тот самый &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Тот самый &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Тот самый &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Тот самый &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Тот самый &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Чука маки &times; 1, Унаги маки &times; 1, Эби маки &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+  'free_shipping:11' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'free_shipping:11',
+      'method_id' => 'free_shipping',
+      'instance_id' => 11,
+      'label' => 'test',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Ланч &times; 3',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+  'free_shipping:11' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'free_shipping:11',
+      'method_id' => 'free_shipping',
+      'instance_id' => 11,
+      'label' => 'test',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Спайси сяке &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Румяный &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Румяный &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Румяный &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Румяный &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Румяный &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+  'free_shipping:11' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'free_shipping:11',
+      'method_id' => 'free_shipping',
+      'instance_id' => 11,
+      'label' => 'test',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Филадельфия микс &times; 1, Сакура &times; 1, Гункан икуро &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-chilie &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-chilie &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-chilie &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-chilie &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-chilie &times; 1',
+    ),
+  )),
+)array (
+  'flat_rate:2' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:2',
+      'method_id' => 'flat_rate',
+      'instance_id' => 2,
+      'label' => 'Доставка Костанай',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+  'local_pickup:5' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:5',
+      'method_id' => 'local_pickup',
+      'instance_id' => 5,
+      'label' => 'Вынос с Хакимжановой, 29',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+  'local_pickup:6' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:6',
+      'method_id' => 'local_pickup',
+      'instance_id' => 6,
+      'label' => 'Вынос с Алтынсарина, 51',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+  'flat_rate:7' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'flat_rate:7',
+      'method_id' => 'flat_rate',
+      'instance_id' => 7,
+      'label' => 'Доставка Рудный',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+  'local_pickup:8' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'local_pickup:8',
+      'method_id' => 'local_pickup',
+      'instance_id' => 8,
+      'label' => 'Вынос Ленина 60, ЦУМ',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+  'free_shipping:11' => 
+  WC_Shipping_Rate::__set_state(array(
+     'data' => 
+    array (
+      'id' => 'free_shipping:11',
+      'method_id' => 'free_shipping',
+      'instance_id' => 11,
+      'label' => 'test',
+      'cost' => '0',
+      'taxes' => 
+      array (
+      ),
+    ),
+     'meta_data' => 
+    array (
+      'Позиции' => 'Лапша гречневая с овощами - chiken, sweet-sour &times; 1, Лапша пшеничная с овощами - chiken, sweet-sour &times; 1, Лапша яичная с овощами - chiken, bbq &times; 1',
+    ),
+  )),
+)

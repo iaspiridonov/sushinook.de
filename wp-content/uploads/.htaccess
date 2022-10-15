@@ -1,0 +1,14 @@
+Options -Indexes
+
+<IfModule mod_php4.c>
+php_flag engine 0
+</IfModule>
+
+<IfModule mod_php5.c>
+php_flag engine 0
+</IfModule>
+
+RemoveType  .phtml .php .pht .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl
+RemoveHandler .phtml .php .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .htm .html .wml
+AddType text/plain .phtml .php .php3 .php4 .php5 .php6 .phps .cgi .exe .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .wml
+AddType text/html .htm .html

@@ -1,0 +1,39 @@
+2022-10-06T16:59:00+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-06T16:59:22+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+
+2022-10-06T17:01:19+00:00 CRITICAL Uncaught Error: Call to undefined function woofc_class() in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php:64
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2103): wc_get_template()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(184): woocommerce_mini_cart()
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(426): WC_AJAX::get_refreshed_fragments()
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_to_cart()
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(87): do_action()
+#8 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::do_wc_ajax()
+#9 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->ap in /var/www/html/wp-content/themes/prosushi/woocommerce/cart/mini-cart.php in Zeile 64
+

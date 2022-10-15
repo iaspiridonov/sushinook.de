@@ -1,0 +1,13 @@
+2022-10-07T04:03:59+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php:66
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woo-floating-cart-lite/public/templates/minicart.php(27): woofc_class()
+#1 /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php(30): require('/var/www/html/w...')
+#2 /var/www/html/wp-content/plugins/woo-floating-cart-lite/public/class-public.php(258): woo_floating_cart_template()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): Woo_Floating_Cart_Public->render()
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action()
+#6 /var/www/html/wp-includes/general-template.php(2684): do_action()
+#7 /var/www/html/wp-content/themes/prosushi/footer.php(94): wp_footer()
+#8 /var/www/html/wp-includes/template.php(704): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(653): loa в /var/www/html/wp-content/plugins/woo-floating-cart-lite/includes/global-functions.php на строке 66
+

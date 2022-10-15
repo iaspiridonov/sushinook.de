@@ -1,0 +1,156 @@
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# BEGIN Imagify: rewrite rules for webp
+<IfModule mod_setenvif.c>
+# Vary: Accept for all the requests to jpeg, png, and gif.
+	SetEnvIf Request_URI "\.(jpg|jpeg|jpe|png|gif)$" REQUEST_image
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+# Check if browser supports WebP images.
+	RewriteCond %{HTTP_ACCEPT} image/webp
+	
+# Check if WebP replacement image exists.
+	RewriteCond %{REQUEST_FILENAME}.webp -f
+	
+# Serve WebP image instead.
+	RewriteRule (.+)\.(jpg|jpeg|jpe|png|gif)$ $1.$2.webp [T=image/webp,NC]
+</IfModule>
+
+<IfModule mod_headers.c>
+	Header append Vary Accept env=REQUEST_image
+</IfModule>
+# END Imagify: rewrite rules for webp
+
+# BEGIN Imagify: webp file type
+<IfModule mod_mime.c>
+	AddType image/webp .webp
+</IfModule>
+# END Imagify: webp file type
+
+#RWR v
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# RWR v20170403
+
+RewriteEngine On
+
+# Redirect from www ---------------------------------------------------------------------
+
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Config --------------------------------------------------------------------------------
+
+RewriteCond %{HTTP_USER_AGENT} (acunetix|BLEXBot|domaincrawler\.com|LinkpadBot|MJ12bot/v|majestic12\.co\.uk|AhrefsBot|TwengaBot|SemrushBot|nikto|winhttp|Xenu\s+Link\s+Sleuth|Baiduspider|HTTrack|clshttp|harvest|extract|grab|miner|python-requests) [NC]
+RewriteRule .* - [F,L]
+
+RewriteCond %{HTTP_USER_AGENT} ":s:[0-9]+:" [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} "JDatabaseDriver" [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} "NT 5.1; SV1" [NC]
+RewriteRule .* - [F,L]
+
+RewriteCond %{HTTP:X-FORWARDED-FOR} ":s:[0-9]+:" [NC,OR]
+RewriteCond %{HTTP:X-FORWARDED-FOR} "JDatabaseDriver" [NC]
+RewriteRule .* - [F,L]
+
+RewriteCond %{HTTP_USER_AGENT} (MJ12Bot/v|Linkpad|Semrush) [NC]
+RewriteRule .* - [F,L]
+
+# s-0001
+<IfModule autoindex_module.c>
+	IndexIgnore *
+</IfModule>
+
+# s-0002
+ServerSignature Off
+Options -Indexes
+
+# s-0003
+ErrorDocument 400 default
+ErrorDocument 401 default
+ErrorDocument 403 "Forbidden"
+
+# WAF Rules -----------------------------------------------------------------------------
+
+# Block methods
+# s-0005
+RewriteCond %{REQUEST_METHOD} ^(TRACE|DELETE|TRACK|DEBUG) [NC]
+RewriteRule .* - [F,L]
+
+# Apache range security problem
+# s-0006
+RewriteCond %{REQUEST_METHOD} ^(HEAD|GET) [NC]
+RewriteCond %{HTTP:Range} ([0-9]*-[0-9]*)(\s*,\s*[0-9]*-[0-9]*)+
+RewriteRule .* - [F]
+
+# Shellshock
+RewriteCond %{QUERY_STRING} (\s*)\s*{\s*:;\s*};
+RewriteCond %{THE_REQUEST} (\s*)\s*{\s*:;\s*};
+RewriteCond %{HTTP_REFERER} (\s*)\s*{\s*:;\s*};
+RewriteCond %{HTTP_USER_AGENT} (\s*)\s*{\s*:;\s*};
+RewriteRule .* - [F,L]
+
+# Block sensitive files
+# s-0015
+<FilesMatch "\.(cfg|pl|htaccess|htpasswd|ini|phps|fla|psd|log|sh|sql|inc|tpl|svn|git|cvs|phtml|asp)$">
+	Order Allow,Deny
+	Deny from All
+</FilesMatch>
+
+# Block sensitive files
+# s-0016
+<FilesMatch "\.(cgi)$">
+	Order Allow,Deny
+	Deny from All
+</FilesMatch>
+
+# Block parasite traffic
+# s-0018
+RewriteCond %{HTTP_REFERER} iskalko\.ru [NC,OR]
+RewriteCond %{HTTP_REFERER} buttons-for-website\.com
+RewriteCond %{HTTP_REFERER} semalt.semalt\.com
+RewriteCond %{HTTP_REFERER} cenoval\.ru
+RewriteCond %{HTTP_REFERER} darodar\.com
+RewriteCond %{HTTP_REFERER} cenokos\.ru
+RewriteCond %{HTTP_REFERER} seoexperimenty\.ru
+RewriteCond %{HTTP_REFERER} gobongo\.info
+RewriteCond %{HTTP_REFERER} adcash\.com
+RewriteCond %{HTTP_REFERER} websocial\.me
+RewriteCond %{HTTP_REFERER} cityadspix\.com
+RewriteCond %{HTTP_REFERER} luxup\.ru
+RewriteCond %{HTTP_REFERER} superiends\.org
+RewriteCond %{HTTP_REFERER} socialseet\.ru
+RewriteCond %{HTTP_REFERER} screentoolkit\.com
+RewriteCond %{HTTP_REFERER} cur\.lv
+RewriteRule .* - [F]
+
+###########################################################################
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+<Files xmlrpc.php>
+	Order Deny,Allow
+	Deny from all
+</Files>
